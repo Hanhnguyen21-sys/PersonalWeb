@@ -1,20 +1,19 @@
 export default function Education() {
-  const programmingSkills = ["JavaScript", "Java", "Python", "C++", "SQL"];
-  const techSkills = [
+  const languages = ["Python", "Java", "C++", "JavaScript", "SQL", "HTML", "CSS"];
+  const frameworksAndTools = [
     "React",
     "Node.js",
+    "Express",
+    "Flask",
+    "FastAPI",
     "Tailwind CSS",
+    "Bootstrap",
     "Git",
     "GitHub",
-    "MongoDB",
-    "MySQL",
+    "REST APIs",
+    "SQLAlchemy",
   ];
-  const softSkills = [
-    "Problem Solving",
-    "Communication",
-    "Teamwork",
-    "Mentoring",
-  ];
+  const databases = ["PostgreSQL", "MySQL", "MongoDB", "SQLite"];
 
   return (
     <section id="education" className="relative overflow-hidden bg-[#f4f9ff] px-6 py-20">
@@ -63,12 +62,12 @@ export default function Education() {
                       B.S. in Computer Science
                     </p>
                     <p className="mt-2 text-sm text-slate-500">
-                      2024 - Present
+                      Expected 12/2027
                     </p>
                   </div>
 
                   <span className="rounded-full bg-sky-500 px-4 py-2 text-sm font-semibold text-white shadow-sm">
-                    GPA: 3.9
+                    GPA: 3.95
                   </span>
                 </div>
               </div>
@@ -78,9 +77,32 @@ export default function Education() {
                   Ohlone College
                 </h4>
                 <p className="mt-2 text-slate-600">
-                  A.S. in Computer Science & Applied Math
+                  A.S. in Computer Science & Applied Mathematics
                 </p>
-                <p className="mt-2 text-sm text-slate-500">2022 - 2024</p>
+                <p className="mt-2 text-sm text-slate-500">01/2022 - 05/2024</p>
+              </div>
+
+              <div>
+                <p className="mb-3 text-sm font-semibold text-[#0b1f4d]">
+                  Relevant Coursework
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    "Data Structures & Algorithms",
+                    "Object-Oriented Design",
+                    "Operating Systems",
+                    "Distributed Systems",
+                    "Computer Architecture",
+                    "Linear Algebra",
+                  ].map((course) => (
+                    <span
+                      key={course}
+                      className="rounded-full border border-sky-200 bg-white px-3 py-1 text-xs font-medium text-[#0b1f4d]"
+                    >
+                      {course}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
@@ -102,10 +124,10 @@ export default function Education() {
             <div className="mt-8 space-y-7">
               <div>
                 <p className="mb-3 text-base font-semibold text-[#0b1f4d]">
-                  Programming
+                  Languages
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  {programmingSkills.map((skill) => (
+                  {languages.map((skill) => (
                     <span
                       key={skill}
                       className="rounded-full border border-sky-200 bg-sky-50 px-4 py-2 text-sm font-medium text-[#0b1f4d]"
@@ -118,10 +140,10 @@ export default function Education() {
 
               <div>
                 <p className="mb-3 text-base font-semibold text-[#0b1f4d]">
-                  Technologies
+                  Frameworks & Tools
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  {techSkills.map((skill) => (
+                  {frameworksAndTools.map((skill) => (
                     <span
                       key={skill}
                       className="rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-sm font-medium text-[#0b1f4d]"
@@ -134,10 +156,10 @@ export default function Education() {
 
               <div>
                 <p className="mb-3 text-base font-semibold text-[#0b1f4d]">
-                  Soft Skills
+                  Databases
                 </p>
                 <div className="flex flex-wrap gap-3">
-                  {softSkills.map((skill) => (
+                  {databases.map((skill) => (
                     <span
                       key={skill}
                       className="rounded-full border border-indigo-200 bg-indigo-50 px-4 py-2 text-sm font-medium text-[#0b1f4d]"

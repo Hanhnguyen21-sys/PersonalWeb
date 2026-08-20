@@ -1,25 +1,28 @@
 export default function Projects() {
   const projects = [
     {
-      title: "Green Meals",
+      title: "My Buddy - AI Career Preparation",
+      period: "07/2026 - Present",
       description:
-        "A full-stack app that connects restaurants with customers by selling surplus food at discounted prices to reduce waste.",
-      tech: ["React", "Node.js", "MySQL"],
+        "A job ingestion pipeline that normalizes postings across job boards, uses AI-assisted extraction to structure skill data, and matches user profiles against market demand to generate personalized prep roadmaps.",
+      tech: ["FastAPI", "PostgreSQL", "SQLAlchemy", "React", "Docker"],
+      link: "https://github.com/Hanhnguyen21-sys",
+    },
+    {
+      title: "Crochet Flower Marketplace",
+      period: "04/2026 - 06/2026",
+      description:
+        "A full-stack e-commerce app for a small crochet-flower business, with responsive product browsing, cart and checkout, and an admin dashboard for inventory and order tracking.",
+      tech: ["React", "Node.js", "Express", "MongoDB"],
+      link: "https://github.com/Hanhnguyen21-sys",
+    },
+    {
+      title: "GreenMeals",
+      period: "09/2025 - 12/2025",
+      description:
+        "A full-stack marketplace built with a team of four, connecting restaurants with customers buying discounted surplus food, with authentication, menu browsing, and order workflows backed by 20+ unit tests.",
+      tech: ["React", "Node.js", "Express", "MySQL"],
       link: "https://github.com/fungjessica/CS160-GreenMeals/tree/Master",
-    },
-    {
-      title: "ZenTask",
-      description:
-        "A task management web app that helps teams track work using Agile concepts like stories, bugs, and progress tracking.",
-      tech: ["React", "Node.js", "MongoDB"],
-      link: "https://github.com/Hanhnguyen21-sys/TrackerApp1",
-    },
-    {
-      title: "Mini-processor",
-      description:
-        "A simulated 32-bit processor built in Verilog, capable of executing instructions in ModelSim.",
-      tech: ["Verilog", "ModelSim"],
-      link: "https://github.com/Hanhnguyen21-sys/MiniProcessor",
     },
   ];
 
@@ -35,9 +38,8 @@ export default function Projects() {
           </p>
 
           <h2 className="mt-3 text-3xl font-bold text-[#0b1f4d] md:text-4xl">
-            Things I’ve built
+            Things I&apos;ve built
           </h2>
-
         </div>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -46,7 +48,11 @@ export default function Projects() {
               key={project.title}
               className="group rounded-[28px] border border-sky-100 bg-white p-6 shadow-[0_10px_40px_rgba(11,31,77,0.08)] transition hover:-translate-y-2 hover:shadow-lg"
             >
-              <h3 className="text-xl font-bold text-[#0b1f4d]">
+              <p className="text-xs font-semibold uppercase tracking-wide text-sky-500">
+                {project.period}
+              </p>
+
+              <h3 className="mt-2 text-xl font-bold text-[#0b1f4d]">
                 {project.title}
               </h3>
 

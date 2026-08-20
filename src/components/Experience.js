@@ -45,34 +45,36 @@ export default function Experience() {
             </div>
 
             <p className="mt-6 text-base leading-7 text-slate-600">
-              Support students in computer science and mathematics by explaining
-              technical concepts, guiding problem-solving, and helping them gain
-              confidence in their coursework.
+              Support students in computer science and mathematics by guiding
+              debugging, strengthening algorithmic problem-solving, and
+              translating complex technical concepts into practical,
+              structured strategies.
             </p>
 
             <ul className="mt-6 space-y-4 text-slate-700">
               <li className="flex gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-sky-500" />
                 <span>
-                  Assisted around <strong>60 students per semester</strong> in
-                  math and computer science courses.
+                  Mentor <strong>60+ students per semester</strong> in data
+                  structures, algorithms, programming, and mathematics.
                 </span>
               </li>
 
               <li className="flex gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-sky-500" />
                 <span>
-                  Helped students strengthen both
-                  <strong> programming</strong> and
-                  <strong> analytical reasoning</strong>.
+                  Guide students in debugging assignments and strengthening
+                  problem-solving; <strong>70%+ of students</strong> reported
+                  increased confidence completing coursework.
                 </span>
               </li>
 
               <li className="flex gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-sky-500" />
                 <span>
-                  Led review sessions and mentoring support for
-                  <strong> 30–50 students</strong> during exam periods.
+                  Lead pre-exam review sessions for{" "}
+                  <strong>30–50 students</strong>, turning technical concepts
+                  into practical examples.
                 </span>
               </li>
             </ul>
@@ -99,33 +101,35 @@ export default function Experience() {
             </div>
 
             <p className="mt-6 text-base leading-7 text-slate-600">
-              Collaborated on a privacy-focused file-sharing platform and built
-              responsive frontend interfaces for a better user experience.
+              Collaborated with a five-member team to build{" "}
+              <strong>WebShare Space</strong>, a privacy-focused file-sharing
+              platform, building responsive frontend interfaces for a better
+              user experience.
             </p>
 
             <ul className="mt-6 space-y-4 text-slate-700">
               <li className="flex gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-sky-500" />
                 <span>
-                  Worked in a <strong>5-member team</strong> to develop a secure
-                  file-sharing service.
+                  Built reusable, responsive UI components with{" "}
+                  <strong>React</strong> and <strong>Tailwind CSS</strong> for
+                  desktop and mobile.
                 </span>
               </li>
 
               <li className="flex gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-sky-500" />
                 <span>
-                  Built a responsive frontend using
-                  <strong> React.js</strong> and
-                  <strong> Tailwind CSS</strong>.
+                  Integrated frontend components with backend{" "}
+                  <strong>REST APIs</strong>.
                 </span>
               </li>
 
               <li className="flex gap-3">
                 <span className="mt-1 h-2.5 w-2.5 rounded-full bg-sky-500" />
                 <span>
-                  Used <strong>GitHub</strong> for collaboration, version
-                  control, and code management.
+                  Used <strong>GitHub</strong> for version control, code
+                  collaboration, and team-based development.
                 </span>
               </li>
             </ul>

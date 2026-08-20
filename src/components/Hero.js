@@ -14,11 +14,12 @@ export default function Hero() {
 
           <h1 className="text-4xl font-bold leading-tight text-[#0b1f4d] md:text-6xl">
             Computer Science Student
-            
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-8 text-[#16356b]">
-            A CS student at San Jose State University, and seek for an internship opportunity in the software engineering field. I am passionate about coding and eager to apply my skills in a real-world setting.
+            I&apos;m a Computer Science student at San Jose State University based in San Jose, CA. 
+            I enjoy building full-stack development applications, and I&apos;m looking for a software 
+            engineering internship where I can keep shipping real products.
           </p>
 
           <div className="mt-8 flex gap-4">
@@ -39,12 +40,14 @@ export default function Hero() {
         </div>
 
         <div className="relative flex justify-center">
-          <div className="relative h-[320px] w-[320px] rounded-full bg-sky-200 md:h-[500px] md:w-[500px]">
+          <div className="relative h-[320px] w-[320px] overflow-hidden rounded-full bg-sky-200 md:h-[500px] md:w-[500px]">
             <Image
-              src="/personal.jpg"
-              alt="Profile"
+              src="/personal2.jpg"
+              alt="Nguyen Nguyen"
               fill
-              className="rounded-full object-cover"
+              sizes="(max-width: 768px) 320px, 500px"
+              priority
+              className="object-cover"
             />
           </div>
 
