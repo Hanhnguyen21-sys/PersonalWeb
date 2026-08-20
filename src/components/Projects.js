@@ -1,12 +1,12 @@
 export default function Projects() {
   const projects = [
     {
-      title: "My Buddy - AI Career Preparation",
+      title: "JobPrep - AI Career Preparation",
       period: "07/2026 - Present",
       description:
-        "A job ingestion pipeline that normalizes postings across job boards, uses AI-assisted extraction to structure skill data, and matches user profiles against market demand to generate personalized prep roadmaps.",
-      tech: ["FastAPI", "PostgreSQL", "SQLAlchemy", "React", "Docker"],
-      link: "https://github.com/Hanhnguyen21-sys",
+        "AI-powered job preparation platform that analyzes resumes against live job postings, identifies skill gaps, and generates personalized learning roadmaps to help users prepare for target roles",
+      tech: ["FastAPI", "PostgreSQL", "SQLAlchemy", "React", "Next.js"],
+      link: "https://github.com/Hanhnguyen21-sys/JobPrep",
     },
     {
       title: "Crochet Flower Marketplace",
@@ -14,7 +14,7 @@ export default function Projects() {
       description:
         "A full-stack e-commerce app for a small crochet-flower business, with responsive product browsing, cart and checkout, and an admin dashboard for inventory and order tracking.",
       tech: ["React", "Node.js", "Express", "MongoDB"],
-      link: "https://github.com/Hanhnguyen21-sys",
+      link: "https://github.com/Hanhnguyen21-sys/Sweety4Girls",
     },
     {
       title: "GreenMeals",
